@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/simplyaem" mode="merge"/>
+    <filter root="/content/simplyaem" mode="merge"/>
+    <filter root="/content/dam/simplyaem" mode="merge">
+        <exclude pattern="/content/dam/simplyaem(/.*)?"/>
+        <include pattern="/content/dam/simplyaem/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/simplyaem/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/simplyaem" mode="merge"/>
+</workspaceFilter>

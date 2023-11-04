@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/simplyaem/clientlibs"/>
+    <filter root="/apps/simplyaem/components"/>
+    <filter root="/apps/simplyaem/i18n"/>
+</workspaceFilter>
